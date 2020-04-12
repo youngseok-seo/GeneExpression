@@ -19,3 +19,8 @@ Various outcomes are displayed as an array of plots and histograms. Results are 
 
 #### Make predictions 
 `Predicting Gene Expression with Lasso Models.ipynb` applies the models built previously, and creates a new .csv file with the predicted genes. 
+
+#### Validate results
+`Validating Predictions.ipynb` compares the results with a gene expression counts matrix from the _GSE71585_RefSeq_counts.csv_ found at https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE71585. Both t-SNE and UMAP are used as dimensionality reduction tools to visualize the two datasets qualitatively. 
+
+![results](https://github.com/youngseok-seo/GeneExpression/blob/master/data/results.png)
