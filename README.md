@@ -1,7 +1,7 @@
 ## Gene Expression Model
 
 #### Background
-The notebooks in this repository provide a systematic procedure for applying machine learning algoritms to predict gene expression in human and mouse cells.
+The notebooks in this repository provide a systematic procedure for applying machine learning algorithms to predict gene expression in human and mouse cells.
 The multivariate regression models train on a set of electrophysiological features and are evaluated on their accuracy in reproducing the corresponding cell's gene expression values.
 One model is created per gene. The imbalance in the small number of samples is accounted for through the use of penalties. 
 
